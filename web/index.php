@@ -5,7 +5,7 @@ function redirect($url, $statusCode = 303)
    header('Location: ' . $url, true, $statusCode);
    die();
 }
-redirect("http://google.com", 302);
+redirect("http://dkrdenetim.com", 302);
 
 ?>
 
